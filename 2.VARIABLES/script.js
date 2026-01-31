@@ -61,3 +61,13 @@ let person={
     age:22,
 };
 console.log(person);
+
+//!-----let-----
+let amount=40;
+amount=120; //reassigned
+console.log(amount);
+
+//!-----const-----
+const carName="Honda";
+carName="Benz";  //not reassigned and show error
+console.log(carName);
