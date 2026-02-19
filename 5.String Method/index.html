@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <h1>String Methods</h1>
+    <p>In JavaScript, strings are a sequence of characters used to represent text. There are various methods available to manipulate and work with strings. Here are some commonly used string methods:</p>
+
+    <h2>1. length</h2>
+    <p>The length property returns the number of characters in a string.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.length); // Output: 13</code></pre>
+
+    <h2>2. toUpperCase()</h2>
+    <p>The toUpperCase() method converts a string to uppercase letters.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.toUpperCase()); // Output: "HELLO, WORLD!"</code></pre>
+    <h2>3. toLowerCase()</h2>
+    <p>The toLowerCase() method converts a string to lowercase letters.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.toLowerCase()); // Output: "hello, world!"</code></pre>
+    <h2>4. indexOf()</h2>
+    <p>The indexOf() method returns the index of the first occurrence of a specified value in a string. It returns -1 if the value is not found.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.indexOf("World")); // Output: 7
+console.log(str.indexOf("JavaScript")); // Output: -1</code></pre>
+
+    <h2>5. slice()</h2>
+    <p>The slice() method extracts a section of a string and returns it as a new string.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.slice(0, 5)); // Output: "Hello"
+console.log(str.slice(7)); // Output: "World!"</code></pre>
+
+    <h2>6. replace()</h2>
+    <p>The replace() method searches for a specified value in a string and replaces it with another value.</p>
+    <pre><code>let str = "Hello, World!";   
+console.log(str.replace("World", "JavaScript")); // Output: "Hello, JavaScript!"</code></pre>
+    <h2>7. split()</h2>
+    <p>The split() method divides a string into an array of substrings based on a specified separator.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.split(", ")); // Output: ["Hello", "World!"]</code></pre>
+    <h2>8. trim()</h2>
+    <p>The trim() method removes whitespace from both ends of a string.</p>
+    <pre><code>let str = "   Hello, World!   ";
+console.log(str.trim()); // Output: "Hello, World!"</code></pre>    
+
+     <h2>9. includes()</h2>
+    <p>The includes() method checks if a string contains a specified value and returns true or false.</p>
+    <pre><code>let str = "Hello, World!";   
+console.log(str.includes("World")); // Output: true
+console.log(str.includes("JavaScript")); // Output: false</code></pre>
+
+     <h2>10. charAt()</h2>
+    <p>The charAt() method returns the character at a specified index in a string.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.charAt(0)); // Output: "H"
+console.log(str.charAt(7)); // Output: "W"</code></pre>
+
+     <h2>11. repeat()</h2>
+    <p>The repeat() method constructs and returns a new string which contains the specified number of copies of the string on which it was called.</p>
+    <pre><code>let str = "Hello! "; 
+console.log(str.repeat(3)); // Output: "Hello! Hello! Hello! "</code></pre>
+
+     <h2>12. startsWith()</h2>
+    <p>The startsWith() method checks if a string starts with a specified value and returns true or false.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.startsWith("Hello")); // Output: true
+console.log(str.startsWith("World")); // Output: false</code></pre>
+
+     <h2>13. endsWith()</h2>
+    <p>The endsWith() method checks if a string ends with a specified value and returns true or false.</p>
+    <pre><code>let str = "Hello, World!";
+console.log(str.endsWith("World!")); // Output: true
+console.log(str.endsWith("Hello")); // Output: false</code></pre>
+        <h2>14. substring()</h2>
+        <p>The substring() method returns a portion of the string between the start and end indexes.</p>
+        <pre><code>let str = "Hello, World!";
+console.log(str.substring(0, 5)); // Output: "Hello"
+console.log(str.substring(7)); // Output: "World!"</code></pre> 
+
+        <h2>15. toString()</h2>
+        <p>The toString() method returns a string representing the specified object.</p>
+        <pre><code>let num = 123;   
+console.log(num.toString()); // Output: "123"</code></pre>
+
+
+
+<!--load js-->
+<script src="script.js"></script>
+</body>
+</html>
