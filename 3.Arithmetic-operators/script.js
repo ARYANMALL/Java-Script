@@ -70,7 +70,6 @@ Scenario:
 * Utilities: $200
 * Entertainment: $300
 
-! Operations to be performed:
 1. Calculate total expenses.
 2. Calculate savings (Income - Expenses).
 3. Calculate the percentage of income spent on expenses.
